@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+:root {
+
+    --primary-color: #AED9E0;
+    --secondary-color: #B8F2E6;
+    --accent1-color: #FAF3DD;
+    --accent2-color: #FFA69E;
+    --accent3-color: #5E6472;
+
+}
+
+
+body {
+    margin: 1%;
+    padding: 1%
+}
+
+#home {
+
+    background-color: #AED9E0;
+}
+
+#about {
+    background-color: #B8F2E6;
+
+}
+
+#education {
+    background-color: #FAF3DD;
+}
+
+html {
+    background-color: #EEFCF9;
+
+}
+
+#projects {
+    background-color: #FFA69E;
+}
+
+/*
+section {
+    height: 800px;
+}*/
+
+
+/*------------Nav---------------------*/
+
+nav {
+    color: #5E6472;
+    display: block;
+    float: right;
+
+
+
+}
+
+.material-symbols-outlined {
+    font-size: 2rem;
+
+}
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+    text-align: right;
+
+}
+
+#menufixed {
+    position: fixed;
+    text-decoration: none;
+    background-color: rgba(220, 218, 218, 0);
+    margin: 1%;
+    padding: 1%;
+    color: #5E6472;
+
+
+}
+
+#menu::before {
+    content: "≡";
+}
+
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+    font-family: 'Bodoni Moda';
+    width: 25%;
+    border-bottom-right-radius: 1px solid;
+
+
+
+}
+
+.show li {
+    background-color: rgb(0, 0, 0, 0);
+    display: block;
+
+}
+
+#menu.show::before {
+    content: "x";
+}
+
+ul.navigation.show {
+    text-align: right;
+}
+
+/*--------------------- */
+
+
+#hero-box {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#menufixed{
+    color: black;
+    font-size: 2rem;
+}
+
+#hero-img {
+    width: 100%;
+    height: auto;
+    grid-row: 1/3;
+    grid-column: 1/5;
+}
+
+input {
+    font-size: 1.5rem;
+    border-radius: 10px 10px;
+    width: 60%;
+}
+
+.welcome1 {
+    margin-top: 10%;
+}
+
+label {
+    grid-row: 2/3;
+    z-index: 1;
+    grid-column: 2/5;
+
+
+}
