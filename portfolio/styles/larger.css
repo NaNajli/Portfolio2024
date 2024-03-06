@@ -1,39 +1,76 @@
 @media(min-width:640px) {
-    .navigation a {
 
-        border-bottom: none;
-        font-size: 2.5rem;
+    /*---------------NAV -----------------------*/
+    nav .navigation {
+
+        display: flex;
+
+
+    }
+
+    li a:hover {
+        text-shadow: 2px 2px 5px #5E6472;
+        font-size: 3rem;
+        color: black;
+    }
+
+    nav {
+        width: -50%;
+        padding: 2%;
+
+
+    }
+
+    #menu {
+        display: none;
+
+    }
+
+    .navigation {
+        flex-direction: row;
+
     }
 
     .navigation li {
-        width: 10%;
+        display: block;
+        flex: 1 1 100%;
 
 
-    }
-
-    .material-symbols-outlined {
-        font-size: 2.5rem;
 
     }
 
 
-    /*--------------------- */
 
-    input {
-        width: 90%;
+
+    /*-----------------------------------------------*/
+
+
+
+    #hero-box {
+        grid-template-columns: auto;
+
+    }
+
+    .welcome1 {
         font-size: 3rem;
-        border-radius: 10px 10px;
-    }
-
-    label {
-        grid-row: 2/3;
-        z-index: 1;
-        grid-column: 2/4;
-        margin-left: 0%;
+        text-align: center;
+        font-family: "Allura";
+        font-weight: 5;
+        padding: 10%;
+        margin: 1%;
 
     }
 
 
+    /*----------------------------------------------------*/
+    #background1 {
+        width: 100%;
+    }
+
+    .logofoot {
+        width: 6rem;
+        height: auto;
+    }
 
 
 

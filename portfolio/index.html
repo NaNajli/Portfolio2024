@@ -4,41 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
+    <title>Nadia Rodriguez</title>
 
     <meta property="og:title" content="Portfolio ">
     <meta property="og:type" content="website">
     <meta property="og:image" content="">
-    <meta property="og:url" content="">
+    <meta property="og:url" content="https://nanajli.github.io/portfolio2024/portfolio/index.html">
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="icon" href="images/favicon.ico">
+
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
 
     <meta name="description" content="My personal Portfolio">
     <meta name="author" content="Nadia Rodriguez">
-
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
-    <link rel="icon" href="images/favicon.ico">
 </head>
 
 <body>
     <header>
-        <a id="menu" href="#"></a>
         <a id="menufixed" href="index.html"><span class="material-symbols-outlined">
                 drag_handle
             </span></a>
         <nav>
+            <button id="menu"></button>
             <ul class="navigation">
                 <li><a href="#home">
                         <span class="material-symbols-outlined">
                             house
                         </span></a></li>
-
-                <li><a href="#about">About</a></li>
+                <li><a href="#about" class="active">About </a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#projects">Projects</a></li>
             </ul>
@@ -47,25 +44,35 @@
     <main>
         <section id="home">
             <div id="hero-box">
-                <label><input id="welcome" placeholder="Thanks for coming" value="Welcome"
-                        title="Portfolio Nadia Rodriguez"><span id="search" class="material-symbols-outlined">
-                        search
-                    </span>
-                </label>
-                <img id="hero-img" src="images/welcome.webp" alt="background Buscador">
+                <div class="input-wrapper"><label>
+                        <input value=" Welcome " class="input" placeholder=" Thanks for coming..." />
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" class="input-icon" viewBox="0 -960 960 960"
+                            width="24">
+                            <path
+                                d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                        </svg>
+                    </label>
+                </div>
+                <img id="hero-img" src="images/background1.webp" alt="background Buscador">
             </div>
-            <h2 class="welcome1">I extend a warm invitation to explore my portfolio, where you can learn more about me
+            <h2 class="welcome1">I extend a warm invitation to explore my portfolio, where you can learn more about
+                me
                 and follow
                 my
                 journey. Within this collection, you will find my academic background, experiences, projects,
                 and
-                various hobbies that have brought me to this point.</h2>
-            <h2>Inspiration:</h2>
-            <h3>For a long time, I've been searching for something that truly captivates me, and programming has
-                been
-                that revelation. Particularly, front-end development allows me to combine creativity, design,
-                and code
-                into a seamless harmony.</h3>
+                various hobbies that have brought me to this point </h2>
+            <div class="icon-flor"> <span class="material-symbols-outlined">
+                    local_florist
+                </span></div>
+            <div class="insp">
+                <h2> Inspiration...</h2>
+                <h3>For a long time, I've been searching for something that truly captivates me, and programming has
+                    been
+                    that revelation. Particularly, front-end development allows me to combine creativity, design,
+                    and code
+                    into a seamless harmony.</h3>
+            </div>
             <h4>
                 Favorite Quote: “I am in the process of becoming the best version of myself.” | by Brian Ford |
                 Medium.
@@ -74,6 +81,7 @@
         <section id="about">
             <h1>About me</h1>
         </section>
+        <img id="background1" src="images/background.webp" alt="background ">
         <section id="education">
             <h1>My experience</h1>
             <h2>Academic Studies:</h2>
@@ -102,7 +110,24 @@
             <h1>Projects</h1>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p class="finde">You can find me here</p>
+        <div class="social">
+            <a href="https://github.com/NaNajli">
+                <img src="images/github.webp" alt="GitHub icon">
+            </a>
+            <a href="https://gmail.com">
+                <img src="images/gmail.webp" alt="Gmail icon">
+            </a>
+            <a href="https://www.linkedin.com/in/nadianajli">
+                <img src="images/linkedin.webp" alt="Linkedin icon">
+            </a>
+        </div>
+        <img class="logofoot" src="images/logonadiarodri.png" alt="Logo">
+        <div>
+            <p>©<span id="year">Year</span> -Nadia Rodriguez-Argentina </p>
+        </div>
+    </footer>
     <script src="scripts/portfolio.js"></script>
 </body>
 
