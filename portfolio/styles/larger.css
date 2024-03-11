@@ -3,18 +3,10 @@
     /*---------------NAV -----------------------*/
     nav .navigation {
         display: flex;
-    }
-
-    li a:hover {
-        text-shadow: 2px 2px 5px #5E6472;
-        font-size: 2rem;
-        color: black;
-    }
-
-    nav {
-        width: -50%;
-        padding: 2%;
-
+        flex-direction: row;
+        align-content: space-between;
+        flex-wrap: wrap;
+        justify-content: flex-end;
     }
 
     #menu {
@@ -22,16 +14,10 @@
 
     }
 
-    .navigation {
-        flex-direction: row;
-
-    }
-
-
     .navigation li {
         display: block;
-        flex: 1 1 100%;
-
+        margin: 3%;
+        text-align: right;
 
     }
 
@@ -50,27 +36,21 @@
 
     /*----------------------HOME ---------------------------*/
 
+    nav li .material-symbols-outlined {
+        font-size: 3rem;
+    }
 
     .welcome1 {
         text-align: center;
         padding: 10%;
         margin: 1%;
         font-family: "Inter", sans-serif;
-        font-weight: 200;
-        font-size: 2rem;
-
     }
 
     #background1 {
         width: 100%;
     }
 
-
-    #hero-box {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
 
     #hero-img {
         width: 100%;
@@ -83,40 +63,31 @@
     .input-wrapper {
         position: relative;
         width: 90%;
-        grid-column: 2/5;
+        grid-column: 1/5;
         grid-row: 2/3;
+
 
     }
 
     .input-icon {
         color: #191919;
         position: absolute;
-        width: 45px;
-        height: 45px;
+        width: 3rem;
+        height: 3rem;
         left: 15px;
-        top: 8%;
         transform: translateY(-50%);
+
     }
 
     .input {
         text-align: center;
-        font-size: 4rem;
+        padding: 1%;
         width: 100%;
         border-radius: 20px 20px;
         color: #5E6472;
+        font-size: 1rem;
     }
 
-    label {
-        grid-row: 2/3;
-        z-index: 1;
-        grid-column: 2/4;
-        margin-left: 0%;
-
-    }
-
-    .insp {
-        font-size: 1.5rem;
-    }
 
 
     /*-------------------FOOTER----------------------------*/
