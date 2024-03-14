@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Inter:wght@100..900&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
 
 * {
     margin: 0;
@@ -15,9 +15,7 @@
 }
 
 
-#education {
-    background-color: #FAF3DD;
-}
+
 
 html {
     background-color: #EEFCF9;
@@ -34,14 +32,16 @@ html {
 /*------------Nav---------------------*/
 
 
+
 .navigation {
 
     list-style-type: none;
     text-align: right;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: "Bodoni moda";
     font-weight: 50;
     padding: 1px;
+
 
 }
 
@@ -53,13 +53,21 @@ a {
 .open li {
     display: none;
     width: 100%;
+    margin: 2%;
 
 
 }
 
+ul.navigation {
+    font-size: 2rem;
+    margin-right: 5%;
+}
+
+
+
 .open li a {
     display: none;
-    font-size: 2rem;
+    font-size: 1rem;
     margin: 2%;
 
 }
@@ -83,7 +91,7 @@ a {
 
 li a:hover {
     text-shadow: 2px 2px 5px #5E6472;
-    font-size: 2rem;
+    font-size: 1rem;
     color: black;
 }
 
@@ -201,6 +209,22 @@ h2.welcome1 {
 
 h1::first-letter {
     font-family: "Bodoni ";
+}
+
+/*---------------EDUCATION --------------------*/
+
+#education {
+    background-color: #FAF3DD;
+    font-family: "Bodoni moda";
+    text-align: center;
+    font-size: 1rem;
+    padding: 10%;
+
+}
+
+#education h4 {
+    font-family: "Raleway", sans-serif;
+    color: #585656;
 }
 
 
