@@ -216,17 +216,51 @@ h1::first-letter {
 #education {
     background-color: #FAF3DD;
     font-family: "Bodoni moda";
-    text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     padding: 10%;
 
+}
+
+#education h1 {
+    text-align: center;
+}
+
+#education h2 {
+    font-size: 2rem;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+#education h3 {
+    font-size: 1.5rem;
+    padding: 2%;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
 }
 
 #education h4 {
     font-family: "Raleway", sans-serif;
     color: #585656;
+    padding: 3%;
+    font-size: 1rem;
 }
 
+#education li {
+
+    font-family: "Raleway", sans-serif;
+    color: #585656;
+    padding-left: 3%;
+    font-size: 1rem;
+}
+
+
+
+.languages img {
+    flex-direction: column;
+    width: 6rem;
+    height: auto;
+    padding: 5%;
+}
 
 /*---------------FOOTER-----------------------*/
 

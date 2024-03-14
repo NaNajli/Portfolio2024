@@ -96,6 +96,14 @@
         font-size: 3rem;
     }
 
+    .languages {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid #191919;
+
+    }
+
+  
 
     /*-------------------FOOTER----------------------------*/
     .logofoot {
