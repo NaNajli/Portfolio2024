@@ -32,8 +32,7 @@
 
     }
 
-
-
+   
     /*----------------------HOME ---------------------------*/
 
     nav li .material-symbols-outlined {
@@ -96,7 +95,6 @@
         display: flex;
         flex-direction: row;
         border-bottom: 1px solid #191919;
-
     }
 
 
