@@ -174,7 +174,7 @@ h2.welcome1 {
 }
 
 .insp {
-    font-size: 2vw;
+    font-size: 1.6rem;
     margin: 4%;
     padding: 2%;
     border-left: 1px solid #124339;
@@ -218,13 +218,13 @@ h1::first-letter {
 }
 
 #education h2 {
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: "Raleway", sans-serif;
     text-align: center;
 }
 
 #education h3 {
-    font-size: 1.5vw;
+    font-size: 1rem;
     padding: 2%;
     font-family: "Raleway", sans-serif;
     text-align: center;
@@ -234,14 +234,14 @@ h1::first-letter {
     font-family: "Raleway", sans-serif;
     color: #585656;
     padding: 3%;
-    font-size: 1.5vw;
+    font-size: 1rem;
 }
 
 #education li {
 
     font-family: "Raleway", sans-serif;
     color: #484848;
-    font-size: 1.5vw;
+    font-size: 1rem;
 }
 
 #education ul {
@@ -262,7 +262,7 @@ h1::first-letter {
 .studies p {
     font-family: "Raleway", sans-serif;
     color: #484848;
-    font-size: 1vw;
+    font-size: 1rem;
     text-align: center;
 
 }
@@ -325,7 +325,7 @@ footer {
 
 footer,
 p {
-    font-size: 1.5vw;
+    font-size: 1rem;
     font-family: "Bondoni";
     text-align: right;
     padding: 1%;
