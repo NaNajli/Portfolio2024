@@ -8,9 +8,7 @@
         flex-wrap: wrap;
         justify-content: flex-end;
         font-size: 1.5rem;
-
     }
-
 
     #menu {
         display: none;
@@ -34,8 +32,7 @@
 
     }
 
-
-
+ 
 
     /*----------------------HOME ---------------------------*/
 
@@ -92,9 +89,6 @@
     }
 
     /*---------------EDUCATION --------------------*/
-    #education {
-        font-size: 3rem;
-    }
 
     .languages {
         display: flex;
@@ -103,7 +97,9 @@
 
     }
 
-  
+
+
+
 
     /*-------------------FOOTER----------------------------*/
     .logofoot {

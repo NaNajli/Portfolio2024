@@ -14,9 +14,6 @@
     --accent3-color: #5E6472;
 }
 
-
-
-
 html {
     background-color: #EEFCF9;
     margin-left: 4%;
@@ -42,7 +39,6 @@ html {
     font-weight: 50;
     padding: 1px;
 
-
 }
 
 a {
@@ -55,7 +51,6 @@ a {
     width: 100%;
     margin: 2%;
 
-
 }
 
 ul.navigation {
@@ -63,13 +58,10 @@ ul.navigation {
     margin-right: 5%;
 }
 
-
-
 .open li a {
     display: none;
     font-size: 1rem;
     margin: 2%;
-
 }
 
 #menu {
@@ -94,6 +86,16 @@ li a:hover {
     color: black;
 }
 
+#menufixed {
+    position: fixed;
+    background-color: #5E6472;
+    color: #FAF3DD;
+    padding: 1%;
+    border-radius: 50%;
+    margin-left: -3%;
+
+}
+
 /*---------------------SECTION HOME------------------- */
 
 
@@ -101,6 +103,10 @@ li a:hover {
     display: grid;
     grid-template-rows: 1fr 2fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+source {
+    width: 10%;
 }
 
 #hero-img {
@@ -142,11 +148,7 @@ li a:hover {
     width: 80%;
     border-radius: 20px 20px;
     padding: 1%;
-
-
 }
-
-
 
 .welcome1 {
 
@@ -165,21 +167,19 @@ h2.welcome1 {
 
 
 #home h4 {
-    font-size: 1.5rem;
+    font-size: 2vw;
     text-align: center;
     padding: 5%;
     color: #606368;
 }
 
 .insp {
-    font-size: 1.5rem;
+    font-size: 2vw;
     margin: 4%;
     padding: 2%;
     border-left: 1px solid #124339;
     color: #606368;
 }
-
-
 
 .icon-flor {
     text-align: center;
@@ -187,22 +187,13 @@ h2.welcome1 {
 }
 
 
-.material-symbols-outlined {
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 500,
-        'GRAD' 0,
-        'opsz' 20,
-
-}
-
 /*---------------SECTION ABOUT --------------------*/
 
 #about {
 
     font-family: "Bodoni Moda";
     text-align: center;
-    font-size: 2rem;
+    font-size: 3vw;
     padding: 5%;
 
 }
@@ -216,23 +207,24 @@ h1::first-letter {
 #education {
     background-color: #FAF3DD;
     font-family: "Bodoni moda";
-    font-size: 2rem;
+    font-size: 3vw;
     padding: 10%;
 
 }
 
 #education h1 {
     text-align: center;
+
 }
 
 #education h2 {
-    font-size: 2rem;
+    font-size: 2vw;
     font-family: "Raleway", sans-serif;
     text-align: center;
 }
 
 #education h3 {
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     padding: 2%;
     font-family: "Raleway", sans-serif;
     text-align: center;
@@ -242,24 +234,72 @@ h1::first-letter {
     font-family: "Raleway", sans-serif;
     color: #585656;
     padding: 3%;
-    font-size: 1rem;
+    font-size: 1.5vw;
 }
 
 #education li {
 
     font-family: "Raleway", sans-serif;
-    color: #585656;
-    padding-left: 3%;
-    font-size: 1rem;
+    color: #484848;
+    font-size: 1.5vw;
 }
 
-
+#education ul {
+    padding-left: 5%;
+}
 
 .languages img {
     flex-direction: column;
-    width: 6rem;
+    width: 5rem;
     height: auto;
-    padding: 5%;
+    padding: 4%;
+}
+
+.studies {
+    padding: 3%;
+}
+
+.studies p {
+    font-family: "Raleway", sans-serif;
+    color: #484848;
+    font-size: 1vw;
+    text-align: center;
+
+}
+
+/*
+.ribbon {
+    width: 80px;
+    font-size: 14px;
+    padding: 4px;
+    position: absolute;
+    right: -25px;
+    top: -12px;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(20deg);
+    color: white;
+    background-color: #03513e;
+
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+    background-color: #FAF3DD;
+
+}*/
+
+/*---------------PROJECTS  --------------------*/
+
+#projects {
+    font-family: "Bodoni moda";
+    font-size: 3vw;
+    text-align: center;
 }
 
 /*---------------FOOTER-----------------------*/
@@ -285,7 +325,7 @@ footer {
 
 footer,
 p {
-    font-size: 1rem;
+    font-size: 1vw;
     font-family: "Bondoni";
     text-align: right;
     padding: 1%;
