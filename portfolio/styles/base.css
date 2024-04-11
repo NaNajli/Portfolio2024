@@ -338,11 +338,8 @@ footer {
     box-shadow: 2px 1px 1px 2px #5E6472;
     margin: 1%;
     background-color: white;
+    padding-right: 3%;
 
-}
-
-footer {
-    padding: auto;
 }
 
 .social img {
