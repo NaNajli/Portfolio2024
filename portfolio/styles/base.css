@@ -193,15 +193,16 @@ h2.welcome1 {
 
 /*---------------SECTION ABOUT --------------------*/
 
-#about {
+#about,
+#sobremi {
     font-family: "Bodoni moda";
     text-align: center;
     font-size: 2rem;
     padding: 5%;
-
 }
 
-#about h2 {
+#about h2,
+#sobremi h2 {
     font-size: 1rem;
     font-family: "Raleway", sans-serif;
     text-align: left;
@@ -215,7 +216,8 @@ h1::first-letter {
 
 /*---------------EDUCATION --------------------*/
 
-#education {
+#education,
+#educacion {
     background-color: #FAF3DD;
     font-family: "Bodoni moda";
     font-size: 2rem;
@@ -223,39 +225,45 @@ h1::first-letter {
 
 }
 
-#education h1 {
+#education h1,
+#educacion h1 {
     text-align: center;
 
 }
 
-#education h2 {
+#education h2,
+#educacion h2 {
     font-size: 1rem;
     font-family: "Raleway", sans-serif;
     text-align: center;
 }
 
-#education h3 {
+#education h3,
+#educacion h3 {
     font-size: 1rem;
     padding: 2%;
     font-family: "Raleway", sans-serif;
     text-align: center;
 }
 
-#education h4 {
+#education h4,
+#educacion h4 {
     font-family: "Raleway", sans-serif;
     color: #585656;
     padding: 3%;
     font-size: 1rem;
 }
 
-#education li {
+#education li,
+#educacion li {
 
     font-family: "Raleway", sans-serif;
     color: #484848;
     font-size: 1rem;
 }
 
-#education ul {
+#education ul,
+#educacion ul {
     padding-left: 5%;
 }
 
@@ -307,7 +315,8 @@ h1::first-letter {
 
 /*---------------  RESUME  --------------------*/
 
-#resume {
+#resume,
+#curriculum {
     font-family: "Bodoni moda";
     font-size: 2rem;
     text-align: center;
