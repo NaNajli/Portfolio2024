@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -32,13 +33,13 @@ html {
 /*------------Nav---------------------*/
 
 
-
 .navigation {
 
     list-style-type: none;
     text-align: right;
     font-size: 2rem;
     font-family: "Bodoni moda";
+
     font-weight: 50;
     padding: 1px;
 
@@ -193,8 +194,7 @@ h2.welcome1 {
 /*---------------SECTION ABOUT --------------------*/
 
 #about {
-
-    font-family: "Bodoni Moda";
+    font-family: "Bodoni moda";
     text-align: center;
     font-size: 2rem;
     padding: 5%;
@@ -330,6 +330,10 @@ footer {
     margin: 1%;
     background-color: white;
 
+}
+
+footer {
+    padding: auto;
 }
 
 .social img {

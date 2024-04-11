@@ -1,18 +1,175 @@
 <!DOCTYPE html>
 <html lang="Spanish">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nadia Rodriguez</title>
+
+<meta property="og:title" content="Portfolio ">
+<meta property="og:type" content="website">
+<meta property="og:image" content="">
+<meta property="og:url" content="https://nanajli.github.io/portfolio2024/portfolio/index.html">
+
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/larger.css">
+<link rel="stylesheet" href="styles/base.css">
+<link rel="icon" href="images/favicon.ico">
+
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+
+<meta name="description" content="My personal Portfolio">
+<meta name="author" content="Nadia Rodriguez">
 </head>
 
 <body>
-    <MAIN>
-        <h1>PROXIMAMENTE....</h1>
-    </MAIN>
+    <header>
+        <a id="menufixed" href="english.html"><span class="material-symbols-outlined">
+                drag_handle
+            </span></a>
+        <nav>
+            <button id="menu"><span class="material-symbols-outlined">
+                    expand_more
+                </span></button>
+            <ul class="navigation">
+                <li><a href="#home">
+                        <span class="material-symbols-outlined">
+                            home
+                        </span></a></li>
+                <li><a href="#about" class="active">Sobre mi</a></li>
+                <li><a href="#education">Educacion</a></li>
+                <li><a href="#projects">Curriculum</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="hero">
+                <div id="hero-box">
+                    <div class="input-wrapper">
+                        <input value="Bienvenido" class="input" placeholder=" Gracias por visitarme" />
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" class="input-icon" viewBox="0 -960 960 960"
+                            width="24">
+                            <path
+                                d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                        </svg>
+                    </div>
+                    <img id="hero-img" src="images/background1.webp" alt="background Buscador">
+                    <!-- <picture id="hero-img">
+                    <source srcset="" media="(max-width: 500px)">
+                    <source srcset="" media="(max-width: 1000px)">
+                    <img src="images/background1.webp" alt="" width="1500" height="750">
+                </picture>-->
+                </div>
+            </div>
+            <h2 class="welcome1">Les extiendo una cálida invitación a explorar mi portafolio, donde podrán aprender más
+                sobre mí y seguir mi viaje. Dentro de esta colección encontrarás mi formación académica,
+                experiencias, proyectos y diversos pasatiempos que me han llevado hasta este punto. </h2>
+            <div class="icon-flor"> <span class="material-symbols-outlined">
+                    local_florist
+                </span></div>
+            <div class="insp">
+                <h2> Inspiracion...</h2>
+                <h3>Durante mucho tiempo he estado buscando algo que realmente me cautive y la programación ha sido esa
+                    revelación.
+                    En particular, el desarrollo front-end me permite combinar creatividad, diseño y código en una
+                    armonía perfecta.</h3>
+            </div>
+            <h4>
+                Frase Favorita: "Estoy en el proceso de convertirme en la mejor versión de mí mismo” | by Brian Ford |
+                Medium.
+            </h4>
+        </section>
+        <section id="about">
+            <h1>Sobre mi</h1>
+            <h2>Me considero una persona tenaz que ha logrado sus objetivos a través de la dedicación y el apoyo
+                incondicional de familiares y amigos.
+                En medio de la pandemia, mi anterior lugar de trabajo cerró sus puertas, y fue entonces cuando comencé a
+                dar clases de guitarra a niños y adolescentes online.
+                Esta experiencia me introdujo al mundo de la tecnología y despertó mi interés por la programación.
+                Aprovechando mis recursos disponibles tomé mi primer curso sobre HTML y CSS a través de Codecademy.
+                Simultáneamente, trabajé en mejorar mis habilidades en inglés, con la aspiración de estudiar en la
+                Universidad Brigham Young (BYU)
+                Actualmente, estoy orgullosa de estar cursando la licenciatura en desarrollo de software en BYU.</h2>
+        </section>
+        <!--<img id="background1" src="images/background.webp" alt="background ">-->
+        <section id="education">
+            <h1>Educacion</h1>
+            <h2>Estudios Academicos:</h2>
+            <div class="studies">
+                <p>Certificado de programación web y informática - BYU-</p>
+                <p>Curso de Test Manual Ágil con Herramientas - UTN</p>
+                <!-- <button class="btn">-->
+                <p>Licenciatura en desarrollo de software - BYU-Pathway Worldwide (En progreso...)
+                </p> <!--<span class="ribbon">In
+                    progress</span>
+            </button>-->
+            </div>
+            <h3>Lenguajes de programación</h3>
+            <div class="languages">
+                <img src="images/html.png" alt="HTML">
+                <img src="images/archivo-css.png" alt="CSS">
+                <img src="images/piton.png" alt="PYTHON">
+                <img src="images/archivo-js.png" alt="JS">
+                <img src="images/desarrollar.png" alt="C#">
+                <img src="images/sql.png" alt="SQL">
 
+            </div>
+            <h3>Fortalezas y experiencia</h3>
+            <h4>Durante el curso de <strong>tester</strong>,tuve el privilegio de trabajar con un equipo, presentar
+                proyectos prácticos y lograr objetivos.
+                Estas experiencias me permitieron crecer en conocimientos, desarrollar habilidades organizativas,
+                explorar mis capacidades y ganar confianza en mis conocimientos.
+                En este curso realicé tareas como</h4>
+            <ul>
+                <li>Testing página web</li>
+                <li>Creando planes de prueba</li>
+                <li>Diseñar casos de prueba</li>
+                <li>Ejecutando</li>
+                <li>Realización de pruebas exploratorias</li>
+                <li>Informar de mejoras y defectos</li>
+            </ul>
+            <h4> Mi experiencia en planificación y seguimiento, particularmente dentro de metodologías ágiles como Scrum
+                (usando el software Jira), ha sido significativa.
+                Mi gran capacidad para planificar, detallar y organizar crea
+                un entorno ideal para detectar errores y mejorar la calidad del software.</h4>
+            <h4>Más allá de mis habilidades técnicas, cuento con más de diez años de experiencia en<strong> Atencion al
+                    cliente</strong> y siempre he trabajado en equipo de forma colaborativa.
+                Reconozco el valor de estas habilidades para fomentar el trabajo en equipo
+                y sigo comprometido con el aprendizaje continuo para mejorar aún más y contribuir al campo.
+            </h4>
+        </section>
+        <section id="resume">
+            <h1>Curriculum</h1>
+            <div class="mouse">
+                <img class="logofoot" src="images/logonadiarodri.png" alt="Logo">
 
+                <a href="images/CurriculumVitae.pdf" download><img src="images/raton-de-computadora.png"
+                        alt=" computer mouse"></a>
+                <!--<a href="https://www.flaticon.es/iconos-gratis/clicker-del-mouse" 
+        title="clicker del mouse iconos">Clicker del mouse iconos creados por juicy_fish - Flaticon</a>-->
+                <p>Descargar</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="finde">Puedes encontrarme aqui!</p>
+        <div class="social">
+            <a href="https://github.com/NaNajli">
+                <img src="images/github.webp" alt="GitHub icon">
+            </a>
+            <a href="mailto:nadurodriguez2@gmail.com">
+                <img src="images/gmail.webp" alt="Gmail icon">
+            </a>
+            <a href="https://www.linkedin.com/in/nadianajli">
+                <img src="images/linkedin.webp" alt="Linkedin icon">
+            </a>
+        </div>
+        <div>
+            <p>©<span id="year">Año</span> -Nadia Rodriguez-Argentina </p>
+        </div>
+    </footer>
+    <script src="scripts/portfolio.js"></script>
 </body>
 
 </html>
