@@ -210,6 +210,30 @@ h2.welcome1 {
     color: black;
 }
 
+.about2 {
+    border-bottom: 1px solid #FFA69E;
+    width: 50%;
+    margin: 5%;
+    font-size: 1.5rem;
+    padding: 1%;
+    line-height: 1.5em;
+}
+
+.about3::first-letter {
+
+    font-size: 2rem;
+}
+
+.about3 {
+    border-left: 1px solid #FFA69E;
+    width: 50%;
+    margin: 10%;
+    font-size: 1.8rem;
+    padding: 2%;
+    line-height: 2em;
+
+}
+
 h1::first-letter {
     font-family: "Bodoni ";
 }
