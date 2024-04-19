@@ -25,9 +25,6 @@ html {
 
 }
 
-#projects {
-    background-color: #AED9E0;
-}
 
 
 /*------------Nav---------------------*/
@@ -252,7 +249,6 @@ h1::first-letter {
 #education h1,
 #educacion h1 {
     text-align: center;
-
 }
 
 #education h2,
@@ -324,20 +320,36 @@ h1::first-letter {
     position: relative;
     cursor: pointer;
     text-align: center;
-    opacity:0.3;
+    opacity: 0.3;
 
 
 }
 
-*/
+
 /*---------------  RESUME  --------------------*/
 
 #resume,
 #curriculum {
+    text-align: center;
     font-family: "Bodoni moda";
-    font-size: 2rem;
+    font-size: 1.5rem;
+
+}
+
+#resume h1,
+#curriculum h1 {
     text-align: center;
 }
+
+#resume h2,
+#curriculum h2 {
+    font-size: 1.5rem;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-weight: 300;
+    color: black;
+}
+
 
 .mouse {
     text-align: right;
