@@ -306,12 +306,12 @@ h1::first-letter {
 
 }
 
-/*.ribbon .btn */
+
 .idioma a {
-    bottom: 10px;
+    bottom: 23px;
     position: relative;
     text-align: center;
-    transform: rotate(20deg);
+
 }
 
 .idioma p {
@@ -321,6 +321,8 @@ h1::first-letter {
     cursor: pointer;
     text-align: center;
     opacity: 0.3;
+    transform: rotate(20deg);
+    margin-left: 7%;
 
 
 }
